@@ -19,8 +19,8 @@ await connectCloudinary() // Connect to Cloudinary
 
 
 // Allow multiple origins 
-const allowedOrigins = [process.env.Frontend_URL]; 
-// const allowedOrigins = ['http://localhost:5173'] 
+
+const allowedOrigins = ['http://localhost:5173','https://freshlydrop.vercel.app'] 
 
 //Middleware configuration
 app.use(express.json());
