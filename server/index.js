@@ -20,7 +20,7 @@ await connectCloudinary() // Connect to Cloudinary
 
 // Allow multiple origins 
 
-const allowedOrigins = ['http://localhost:5173','https://freshlydrop.vercel.app'] 
+const allowedOrigins = ['https://freshlydrop.vercel.app'] 
 
 //Middleware configuration
 app.use(express.json());
